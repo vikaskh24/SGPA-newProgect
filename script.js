@@ -1,12 +1,13 @@
 // SGPA Calculator
 
 const grades = {
-  'S': { minScore: 90, maxScore: 100, gradePoints: 10 },
-  'A+': { minScore: 80, maxScore: 89, gradePoints: 9 },
+  'O': { minScore: 90, maxScore: 100, gradePoints: 10 },
+  'S': { minScore: 80, maxScore: 89, gradePoints: 9 },
   'A': { minScore: 70, maxScore: 79, gradePoints: 8 },
-  'B+': { minScore: 60, maxScore: 69, gradePoints: 7 },
-  'B': { minScore: 50, maxScore: 59, gradePoints: 6 },
-  'C': { minScore: 40, maxScore: 49, gradePoints: 5 },
+  'B': { minScore: 60, maxScore: 69, gradePoints: 7 },
+  'C': { minScore: 50, maxScore: 59, gradePoints: 6 },
+  'D': { minScore: 45, maxScore: 49, gradePoints: 5 },
+  'E': { minScore: 40, maxScore: 44, gradePoints: 4 },
   'F': { minScore: 0, maxScore: 39, gradePoints: 0 },
 };
 
@@ -71,7 +72,7 @@ function calculateSGPA() {
   if (isNaN(sgpa) || sgpa <= 0) {
     resultDiv.innerHTML = 'Please enter valid scores and credits for all courses.';
   } else {
-    resultDiv.innerHTML = `Your SGPA is: ${sgpa.toFixed(2)}."Your worth goes beyond your marks. Embrace your uniqueness and have a wonderful day!"`;
+    resultDiv.innerHTML = `Your SGPA is: ${sgpa.toFixed(2)}. Your worth goes beyond your marks. Embrace your uniqueness and have a wonderful day!`;
   }
 }
 
