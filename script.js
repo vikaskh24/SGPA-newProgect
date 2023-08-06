@@ -71,7 +71,7 @@ function calculateSGPA() {
   if (isNaN(sgpa) || sgpa <= 0) {
     resultDiv.innerHTML = 'Please enter valid scores and credits for all courses.';
   } else {
-    resultDiv.innerHTML = `Your SGPA is: ${sgpa.toFixed(2)}. We're not going to judge you by your marks. Have a good day!`;
+    resultDiv.innerHTML = `Your SGPA is: ${sgpa.toFixed(2)}."Your worth goes beyond your marks. Embrace your uniqueness and have a wonderful day!"`;
   }
 }
 
