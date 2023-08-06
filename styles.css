@@ -1,0 +1,164 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: linear-gradient(to bottom, #0099cc, #005580);
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.college-name {
+  margin-bottom: 10px;
+  color: #f2b400; /* Yellow color */
+  font-weight: bold;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.college-logo {
+  color: #fff; /* White color for the logo */
+  font-size: 40px;
+  margin: 0;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Adding a shadow effect */
+  transition: transform 0.3s ease; /* Adding transition for a smooth scale effect */
+}
+
+.container {
+  width: 90%;
+  max-width: 400px;
+  padding: 20px;
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.input-section {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 12px;
+  font-size: 16px;
+  border: 2px solid #0099cc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  color: #333;
+  transition: border-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+input[type="number"]:focus {
+  outline: none;
+  border-color: #005580;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+button {
+  background-color: #0099cc;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #005580;
+  transform: scale(1.05);
+}
+
+.course-input {
+  margin-bottom: 15px;
+}
+
+#result {
+  margin-top: 20px;
+  font-size: 18px;
+  color: #333;
+  font-weight: bold;
+}
+
+/* Media Query for Mobile Devices */
+@media only screen and (max-width: 600px) {
+  .college-name {
+    font-size: 20px;
+  }
+  
+  .college-logo {
+    font-size: 30px;
+  }
+}
+/* ... Previous CSS styles ... */
+/* ... Previous CSS styles ... */
+
+/* Contact Me Section */
+.contact-section {
+  margin-top: 20px;
+  padding: 10px;
+  background: linear-gradient(to right, #ff66cc, #993399);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h2 {
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: #fff; /* White text color for better visibility on the gradient background */
+}
+
+.contact-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-links a {
+  display: inline-block;
+  margin: 5px;
+  border-radius: 50%;
+  padding: 8px;
+  background-color: #fff; /* White background color for the icons */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s ease, box-shadow 0.3s ease;
+}
+
+.contact-links a img {
+  width: 25px;
+  height: 25px;
+}
+
+.contact-links a:hover {
+  transform: scale(1.1);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+/* Media Query for Mobile Devices */
+/* ... Previous media query styles ... */
